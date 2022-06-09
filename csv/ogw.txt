@@ -1,0 +1,45 @@
+# identity: Id
+# parent: Parent
+# style: %shapes%
+# parentstyle: %shapes%
+# connect: {"from": "Conn", "to": "Id", "style": "edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;"}
+# top: top
+# left: left
+# width: @width
+# height: @height
+# ignore: Parent, Conn, top, left, width, height
+Name,Id,Parent,Conn,top,left,width,height,shapes
+From Database,Parent1,,,0,0,500,600,"swimlane;dashed=1;fillColor=#fff2cc;gradientColor=#ffd966;"
+File Name of A,C1,Parent1,,60,60,180,140,"shape=table;startSize=30;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;fontFamily=Helvetica;fontSize=12;strokeColor=#6c8ebf;fillColor=#dae8fc;gradientColor=#7ea6e0;"
+,C1_1,C1,,,,,30,"shape=tableRow;startSize=0;swimlaneHead=0;fillColor=none;collapsible=0;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=#6c8ebf;"
+ID,C1_1_1,C1_1,,,,30,30,"shape=partialRectangle;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;"
+Header Name,C1_1_2,C1_1,,,,150,30,"shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;"
+,C1_2,C1,"_C1_3",,,,30,"shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=default;"
+A1,C1_2_1,C1_2,,,,30,30,"shape=partialRectangle;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;"
+sample_header_name1,C1_2_2,C1_2,,,,150,30,"shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Helvetica;fontSize=12;fontColor=default;startSize=23;strokeColor=default;"
+,C1_3,C1,,,,,30,"shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=default;"
+A2,C1_3_1,C1_3,,,,30,30,"shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Helvetica;fontSize=12;fontColor=default;startSize=23;strokeColor=default;"
+sample_header_name2,C1_3_2,C1_3,,,,150,30,"shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Helvetica;fontSize=12;fontColor=default;startSize=23;strokeColor=default;"
+File Name of B,C2,Parent1,,60,260,180,140,"shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fontFamily=Helvetica;fontSize=12;strokeColor=#6c8ebf;fillColor=#dae8fc;gradientColor=#7ea6e0;"
+,C2_1,C2,,,,,30,"shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=#6c8ebf;"
+ID,C2_1_1,C2_1,,,,30,30,"shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;"
+Header Name,C2_1_2,C2_1,,,,150,30,"shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;"
+,C2_2,C2,,,,,30,"shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=default;"
+A1,C2_2_1,C2_2,,,,30,30,"shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Helvetica;fontSize=12;fontColor=default;startSize=23;strokeColor=default;"
+sample_header_name1,C2_2_2,C2_2,,,,150,30,"shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Helvetica;fontSize=12;fontColor=default;startSize=23;strokeColor=default;"
+,C2_3,C2,,,,,30,"shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=default;"
+A2,C2_3_1,C2_3,,,,30,30,"shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Helvetica;fontSize=12;fontColor=default;startSize=23;strokeColor=default;"
+sample_header_name2,C2_3_2,C2_3,,,,150,30,"shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Helvetica;fontSize=12;fontColor=default;startSize=23;strokeColor=default;"
+Calculate,Parent2,,,0,800,500,600,"swimlane;dashed=1;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;"
+File Name of G,_C1,Parent2,,60,60,180,160,"shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fontFamily=Helvetica;fontSize=12;strokeColor=#6c8ebf;fillColor=#dae8fc;gradientColor=#7ea6e0;"
+,_C1_1,_C1,,,,,30,"shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=#6c8ebf;"
+ID,_C1_1_1,_C1_1,,,,30,30,"shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;"
+Header Name,_C1_1_2,_C1_1,,,,150,30,"shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;"
+,_C1_2,_C1,,,,,30,"shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=default;"
+G1,_C1_2_1,_C1_2,,,,30,30,"shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Helvetica;fontSize=12;fontColor=default;startSize=23;strokeColor=default;"
+sample_header_name1,_C1_2_2,_C1_2,,,,150,30,"shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Helvetica;fontSize=12;fontColor=default;startSize=23;strokeColor=default;"
+,_C1_3,_C1,,,,,30,"shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;fontFamily=Helvetica;fontSize=12;fontColor=default;strokeColor=default;"
+G2,_C1_3_1,_C1_3,,,,30,30,"shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;fontFamily=Helvetica;fontSize=12;fontColor=default;startSize=23;strokeColor=default;"
+sample_header_name2,_C1_3_2,_C1_3,,,,150,30,"shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontFamily=Helvetica;fontSize=12;fontColor=default;startSize=23;strokeColor=default;"
+File Name of H,_C2,Parent2,,250,280,180,160,"shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fontFamily=Helvetica;fontSize=12;strokeColor=#6c8ebf;fillColor=#dae8fc;gradientColor=#7ea6e0;"
+
